@@ -82,4 +82,51 @@ They are usually saying a  compiler how the user wants the data to be used by th
    Logic Operaors ||,&&,!
    Oth operators-size,conditional(?:),coma
    Precedence PUMDRPM
+   ---------------------------------------------------------------------------------------------->]
+   Complexity of algthm
+   The complexity of an algorithm is usually a measure of its efficiency
+   Time Complexity:The time taken for executing a particular algorithm
+   Space Complexity:The space taken for exceution of a particular programm
+
+   Order of growth of alghtm
+   Te order of growth of an algorithm is computed in terms of
+   .Ignore low order constants
+   .Ignor he constant preceding to higher valu component
+
+   Eg:n+3n^2
+   n^2 is the order of growth
+
+  Asymptoic analysis
+  Omega -lower bond-Best Case
+  eg:f(n)<=c.g(n)
+  consider
+  f(n)=2n+1
+  so,c=2+1=3
+  2n+1<=3.n
+  1<=n
+     
+  BigO-Upperbound-Worst Case
+  c.g(n)<=f(n)
+  f(n)=2n+1
+  so,c=2-1=1
+  1.n<=2n+1
+  -1<=n
+
+  
+  Theta-between upper and lower bound-Average Case
+  c1.g(n)<=f(n)<=c2.g(n)
+  3.n<=2n+1<=1.n
+  c1=1,c2=3
+  considering the hisher value n0=3
+
+  Space Complexit=Auxillary Space+Input Space
+  Input space is te space taken by he variables & Auxillary space is the space that is required or used during execution of a programme 
+  
+
+
+
+
+
+
+
    
